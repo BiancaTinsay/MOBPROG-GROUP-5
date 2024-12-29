@@ -1,6 +1,3 @@
-        <!-- Code is not yet finished! -->
-
-
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -12,7 +9,6 @@
     android:scaleX="1.2"
     android:scaleY="1.2"
     tools:context=".MainActivity">
-
 
     <ImageView
         android:id="@+id/background_image"
@@ -26,6 +22,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/bg" />
+
 
     <Button
         android:id="@+id/button2"
@@ -100,7 +97,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="55dp"
+                android:layout_height="50dp"
                 android:src="@drawable/aries"
                 android:scaleType="fitCenter"/>
 
@@ -122,6 +119,8 @@
                 android:fontFamily="@font/poppins_italic"
                 android:textSize="10sp"
                 android:layout_marginTop="4dp"/>
+
+
         </LinearLayout>
 
         <!-- Taurus -->
@@ -139,7 +138,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="55dp"
+                android:layout_height="50dp"
                 android:src="@drawable/taurus"
                 android:scaleType="fitCenter"/>
 
@@ -178,7 +177,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="55dp"
+                android:layout_height="50dp"
                 android:src="@drawable/gemini"
                 android:scaleType="fitCenter"/>
 
@@ -217,7 +216,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="55dp"
+                android:layout_height="50dp"
                 android:src="@drawable/cancerrr"
                 android:scaleType="fitCenter"/>
 
@@ -256,7 +255,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="55dp"
+                android:layout_height="50dp"
                 android:src="@drawable/leoo"
                 android:scaleType="fitCenter"/>
 
@@ -295,7 +294,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="55dp"
+                android:layout_height="50dp"
                 android:src="@drawable/virgoo"
                 android:scaleType="fitCenter"/>
 
@@ -334,7 +333,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="55dp"
+                android:layout_height="50dp"
                 android:src="@drawable/libra"
                 android:scaleType="fitCenter"/>
             <TextView
@@ -372,7 +371,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="55dp"
+                android:layout_height="50dp"
                 android:src="@drawable/scorpio"
                 android:scaleType="fitCenter"/>
 
@@ -411,7 +410,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="55dp"
+                android:layout_height="50dp"
                 android:src="@drawable/sagittarius"
                 android:scaleType="fitCenter"/>
 
@@ -450,7 +449,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="55dp"
+                android:layout_height="50dp"
                 android:src="@drawable/capricorn"
                 android:scaleType="fitCenter"/>
 
@@ -489,7 +488,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="55dp"
+                android:layout_height="50dp"
                 android:src="@drawable/aquarius"
                 android:scaleType="fitCenter"/>
             <TextView
@@ -527,7 +526,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="55dp"
+                android:layout_height="50dp"
                 android:src="@drawable/pisces"
                 android:scaleType="fitCenter"/>
 
