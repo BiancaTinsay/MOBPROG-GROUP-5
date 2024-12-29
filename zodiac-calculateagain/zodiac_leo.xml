@@ -160,6 +160,8 @@
         android:fontFamily="@font/poppins_medium"
         android:text="CALCULATE AGAIN?"
         android:textSize="17dp"
+        android:background="@drawable/gradient_button"
+        app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="@+id/background_image"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
